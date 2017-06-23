@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/ddcom-contenthub"/>    
+    <filter root="/etc/designs/ddcom-contenthub"/>
+    <filter root="/etc/cloudsettings/default/contexthub/ddpersona"/>
+    <filter root="/etc/cloudsettings/default/contexthub/ddprofile"/>
+</workspaceFilter>
