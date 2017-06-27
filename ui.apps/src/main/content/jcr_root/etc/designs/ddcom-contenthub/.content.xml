@@ -9,7 +9,7 @@
             <par
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/parsys"
-                components="[group:ddcom-contenthub]">
+                components="[group:ddcom-contenthub,/libs/cq/personalization/components/target]">
                 <colctrl
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="ddcom-contenthub/components/content/colctrl"

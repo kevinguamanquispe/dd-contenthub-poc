@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-06-27T16:28:09.220-04:00"
+        cq:lastModifiedBy="admin"
+        cq:segments="[/etc/segmentation/contexthub/chicago-ch]"
+        cq:template="/libs/cq/personalization/templates/experience"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Bagel Offer"
+        jcr:uuid="fe847233-9645-4527-8a3c-1cdf500afe9e"
+        sling:resourceType="cq/personalization/components/experiencepage"/>
+    <en-target/>
+</jcr:root>

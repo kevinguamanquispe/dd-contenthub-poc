@@ -8,7 +8,8 @@ ContextHub.console.log(ContextHub.Shared.timestamp(), '[loading] contexthub.stor
         /* initial values to set in store's storage */
         initialValues: {
             name: 'Alison Parker',
-            age: 22
+            age: 22,
+            dma: 501
         }
     };
 
@@ -44,9 +45,18 @@ ContextHub.console.log(ContextHub.Shared.timestamp(), '[loading] contexthub.stor
      */
     TestStore.prototype.getAge = function() {
         return this.getItem('age') || '[unknown]';
-    };
+    };   
+    
+    /**
+     * Returns DMA.
+     *
+     * @return {Number}
+     */
+    TestStore.prototype.getDMA = function() {
+        return this.getItem('dma') || '[unknown]';
+    }; 
 
     /* register store candidate */
-    ContextHub.Utils.storeCandidates.registerStoreCandidate(TestStore, 'demo.01-session-store', 0);
+    ContextHub.Utils.storeCandidates.registerStoreCandidate(TestStore, 'ddcom.profile-store', 0);
 
 }(ContextHubJQ));

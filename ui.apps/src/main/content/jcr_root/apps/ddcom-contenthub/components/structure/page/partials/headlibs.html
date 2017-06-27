@@ -21,3 +21,8 @@
 
 <!--/* Initializes the Experience Manager authoring UI */-->
 <sly data-sly-include="/libs/wcm/core/components/init/init.jsp" data-sly-unwrap/>
+
+<!--/* Initializes ContextHub */-->
+<sling:include path="contexthub" resourceType="granite/contexthub/components/contexthub" />
+
+<sly data-sly-resource="${'contexthub' @ resourceType='granite/contexthub/components/contexthub'}"/>

@@ -2,4 +2,5 @@
 <workspaceFilter version="1.0">
     <filter root="/content/ddcom-contenthub"/>
     <filter root="/content/dam/ddcom-contenthub"/>
+    <filter root="/content/campaigns/dd-contexthub-demo"/>    
 </workspaceFilter>
