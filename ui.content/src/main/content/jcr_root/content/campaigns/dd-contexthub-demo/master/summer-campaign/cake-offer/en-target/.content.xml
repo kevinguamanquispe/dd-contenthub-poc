@@ -18,6 +18,11 @@
             <target
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/personalization/components/targetparsys">
+                <title_0
+	                jcr:primaryType="nt:unstructured"
+	                jcr:title="DMA 601 Campaign"
+	                type="h1"
+	                sling:resourceType="ddcom-contenthub/components/content/title"/>
                 <image
                     jcr:created="{Date}2017-06-27T16:18:41.828-04:00"
                     jcr:createdBy="admin"
@@ -25,7 +30,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="ddcom-contenthub/components/content/image"
-                    fileReference="/content/dam/dd/img/icons/global/global-perks-cake.svg"/>
+                    fileReference="/content/dam/projects/gov/cover"/>
             </target>
         </par>
     </jcr:content>

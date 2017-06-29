@@ -35,13 +35,10 @@
 					sling:resourceType="cq/personalization/components/targetparsys">
                 	<image
 		                jcr:primaryType="nt:unstructured"
-						fileReference="/content/dam/dd/img/tiles-lifestyle/perks-account/rewards-offers-fun-facts-2x-promo-tile-620x245.png"
+						fileReference="/content/dam/projects/media/cover"
 		                sling:resourceType="ddcom-contenthub/components/content/image"/>
                 </default>
 			</target>                                
         </par>
-        <image jcr:primaryType="nt:unstructured">
-            <file/>
-        </image>
     </jcr:content>
 </jcr:root>
