@@ -20,7 +20,7 @@
                 sling:resourceType="cq/personalization/components/targetparsys">
                 <title_0
 	                jcr:primaryType="nt:unstructured"
-	                jcr:title="DMA 501 Campaign"
+	                jcr:title="DMA 601 Campaign"
 	                type="h1"
 	                sling:resourceType="ddcom-contenthub/components/content/title"/>
                 <image
