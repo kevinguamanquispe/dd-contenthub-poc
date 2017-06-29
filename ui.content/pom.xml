@@ -91,14 +91,7 @@
                     <filterSource>src/main/content/META-INF/vault/filter.xml</filterSource>
                     <verbose>true</verbose>
                     <failOnError>true</failOnError>
-                    <group>ddcom-contenthub</group>
-                    <embeddeds>
-                        <embedded>
-                            <groupId>com.dunkindonuts.aem</groupId>
-                            <artifactId>ddcom-contenthub.core</artifactId>
-                            <target>/apps/ddcom-contenthub/install</target>
-                        </embedded>
-                    </embeddeds>
+                    <group>ddcom-contenthub</group>                    
                 </configuration>
             </plugin>
         </plugins>
@@ -108,11 +101,6 @@
     <!-- D E P E N D E N C I E S                                                -->
     <!-- ====================================================================== -->
     <dependencies>
-        <dependency>
-            <groupId>com.dunkindonuts.aem</groupId>
-            <artifactId>ddcom-contenthub.core</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
 
         <dependency>
             <groupId>com.adobe.aem</groupId>
